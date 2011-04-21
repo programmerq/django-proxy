@@ -43,5 +43,6 @@ class ProxyBase(models.Model):
 
 class Proxy(ProxyBase):
     '''The default proxy model.'''
-    pass
 
+    class Meta:
+        verbose_name_plural = 'Proxies'
